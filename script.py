@@ -15,7 +15,7 @@ import loguru
 
 def scrape_data_point():
     headers = {
-        "User-Agent":"cis3500-scraper"
+        "User-Agent":"cis3500-scraper-1"
     }
     """
     Scrapes the main headline from The Daily Pennsylvanian home page.
