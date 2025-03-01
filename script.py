@@ -53,9 +53,9 @@ if __name__ == "__main__":
 
     ## manually create file
     data_file = "data/daily_pennsylvanian_headlines.json"
-if not os.path.exists(data_file):
-    with open(data_file, "w") as f:
-        f.write("{}")  # Initialize an empty JSON object
+    if not os.path.exists(data_file):
+        with open(data_file, "w") as f:
+            f.write("{}")  # Initialize an empty JSON object
 
 
     # Load daily event monitor
